@@ -1,0 +1,3 @@
+This directory contains all the necessary code for the CASCADE package (CASCADE_package), and the code required to run a CASCADE NMR prediction on a molecule. The directory CASCADE_run contains an example molecule and its NMR shifts predicted by CASCADE.
+
+The enviroment.yml file in the CASCADE_run directory installs a conda environment with all the packages which CASCADE is dependent on. In CASCADE_run/run_cascade.py, the path to CASCADE_package will need to be changed to the correct path for the user's system.
